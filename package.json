@@ -1,0 +1,18 @@
+{
+  "name": "pino-what",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "fast-safe-stringify": "^2.0.7",
+    "quick-format-unescaped": "^4.0.1",
+    "sonic-boom": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  },
+  "scripts": {
+    "test": "mocha *.test.js",
+    "debug": "node --inspect-brk pino.js"
+  }
+}
