@@ -19,3 +19,13 @@ It takes these things and puts them together into a string that is json like.
 ---
 
 Going a little further, dd-trace relies on this library `OpenTracing` which we can use with a few enhancements I reckon.
+
+---
+
+To use the jaeger example to illustrate a microservice architecture deployed with tracing.
+
+```
+$  ci/jaeger-platform.sh
+```
+
+The Observability platform is at http://localhost:16686/ and the frontend application is at http://localhost:8080/ 
